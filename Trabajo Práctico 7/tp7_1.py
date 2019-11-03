@@ -8,13 +8,17 @@ La función no recibe ningún parámetro, y devuelve la lista cargada
 En los siguientes ejercicios utilice la función del ejercicio 1
 para ingresar datos en una lista y:"""
 
-pili=[]
-nro=int(input("ingrese nro: "))
-while nro!=-1:
-    if nro>0 and nro<21:
-        pili.append(nro)
-    else:
-        print("nro no valido")
+def dolist():
+    listex=[]
     nro=int(input("ingrese nro: "))
-print(pili)
+    while nro!=-1:
+        if nro>0 and nro<21:
+            listex.append(nro)
+        else:
+            print("nro no valido")
+        nro=int(input("ingrese nro: "))
+    return (listex)
+
+res=dolist()
+print(res)
 
