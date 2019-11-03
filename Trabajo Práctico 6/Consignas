@@ -1,0 +1,61 @@
+""".
+
+TRABAJO PRÁCTICO 6: FUNCIONES
+
+Codifique funciones apropiadas para cumplir con los siguientes objetivos:
+
+Ejercicio 1: Dados dos parámetros numéricos, calcular y devolver el resultado de la multiplicación de ambos
+utilizando sólo sumas.
+
+Ejercicio 2: Dados dos parámetros enteros A y B, obtener AB (A elevado a la B) mediante multiplicaciones
+sucesivas, utilizando la función del ejercicio 1.
+
+Ejercicio 3: Imprimir una columna de asteriscos, donde su altura se recibe como parámetro.
+
+Ejercicio 4: Verificar si un número es par o impar, devolviendo True o False respectivamente.
+
+Ejercicio 5: Devolver el máximo entre dos números recibidos como parámetros.
+
+Ejercicio 6: Devolver True si el número entero recibido como primer parámetro es múltiplo del segundo, o
+False en caso contrario. Ejemplo: esmultiplo(40,8) devuelve True y esmultiplo(50,3) devuelve False.
+
+Ejercicio 7: Dado un número entero, calcular su factorial. Ejemplo: fact(4) = 4*3*2*1 = 24.
+
+Ejercicio 8: Calcular el Máximo Común Divisor de dos enteros no negativos, basándose en las siguientes
+fórmulas matemáticas:
+• MCD(X,X) = X
+• MCD(X,Y) = MCD(Y,X)
+• Si X > Y => MCD(X,Y) = MCD(X-Y,Y).
+Ejemplo: MCD(40,15) devuelve 5.
+
+Ejercicio 9: Desarrollar la función signo(n), que reciba un número entero y devuelva un 1, -1 o 0 según el valor
+recibido sea positivo, negativo o nulo.
+
+Ejercicio 10: Escribir la función comparar(a,b) que reciba como parámetros dos números enteros y devuelva 1
+si el primero es mayor que el segundo, 0 si son iguales o -1 si el primero es menor que el segundo. Ejemplo:
+comparar(4,2) devuelve 1, y comparar(2,4) devuelve -1.
+
+Ejercicio 11: Adaptar el programa que utiliza la fórmula de Newton para calcular la raíz cuadrada de un número
+positivo N (de la práctica anterior) para que trabaje como una función.
+Página 4 de 7
+
+Ejercicio 12: Extraer un dígito de un número entero. La función recibe como parámetros dos números enteros,
+uno será del que se extraiga el dígito y el otro indica qué cifra se desea obtener. La cifra de la derecha se
+considera la número 0. Retornar el valor -1 si no existe el dígito solicitado. Ejemplo: extraerdigito(12345,1)
+devuelve 4, y extraerdigito(12345,8) devuelve -1.
+
+Ejercicio 13: Devolver los últimos N dígitos de un número entero pasado como parámetro. El valor de N
+también debe ser pasado como parámetro. Devolver el número completo si N es demasiado grande. Ejemplo:
+ultimosdigitos(12345,3) devuelve 345, y ultimosdigitos(12345,8) devuelve 12345.
+
+Ejercicio 14: Obtener el dígito central de un número entero pasado como parámetro, sólo si la cantidad de
+dígitos es impar. Si la longitud fuera par devolver -1. Ejemplo: digitocentral(12345) devuelve 3, y
+digitocentral(123456) devuelve -1.
+
+Ejercicio 15: Escribir una función que reciba como parámetros dos números enteros y devuelva la
+concatenación de ambos. Por ejemplo concatenar(123,456) devuelve 123456.
+
+Ejercicio 16: Realizar una función que calcule y devuelva la sumatoria de los términos de la sucesión de
+Fibonacci entre dos números de término dados, los que se reciben como parámetros.
+
+."""
