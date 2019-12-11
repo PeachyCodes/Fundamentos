@@ -1,5 +1,6 @@
-"""
-
+""" 
+                        EJERCICIO EXTRA FUNDAMENTOS-        
+            
     Leer dos listas de numeros M y N , ambas ordenadas de menor a mayor.
     Generar e imprimir una tercera lista que resulte de intercalar todos los elementos de M y N.
     La nueva lista también debe quedar ordenada, sin usar ningun metodo de ordenamiento
@@ -78,7 +79,7 @@ print ("N=", nrange)
 print ("La lista intercalada es:  Ñ=", ñ)
 
 """
-        Pseudocódigo
+        ESTRATEGIA: 
 
 1) El usuario genera dos listas, M y N, previendo que no pueden quedar vacías.
     Se ordenan con Método de Selección.
